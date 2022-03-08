@@ -1,0 +1,27 @@
+{
+  "name": "pretry",
+  "version": "1.0.0",
+  "description": "Promise retry",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flavioespinoza/pretry.git"
+  },
+  "keywords": [
+    "promise",
+    "retry"
+  ],
+  "author": "Flavio Espinoza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flavioespinoza/pretry/issues"
+  },
+  "homepage": "https://github.com/flavioespinoza/pretry#readme",
+  "dependencies": {
+    "@types/retry": "^0.12.1",
+    "retry": "^0.13.1"
+  }
+}
