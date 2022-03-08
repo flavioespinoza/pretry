@@ -1,8 +1,12 @@
 {
-  "name": "pretry",
-  "version": "1.0.0",
+  "name": "@flavs/pretry",
+  "version": "1.0.4",
   "description": "Promise retry",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "scripts": {
     "test": "test"
   },
@@ -23,5 +27,6 @@
   "dependencies": {
     "@types/retry": "^0.12.1",
     "retry": "^0.13.1"
-  }
+  },
+  "devDependencies": {}
 }
