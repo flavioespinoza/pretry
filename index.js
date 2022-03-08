@@ -1,4 +1,4 @@
-import retry from 'retry';
+const retry = require('retry');
 
 const networkErrorMsgs = new Set([
 	'Failed to fetch', // Chrome
@@ -50,7 +50,7 @@ export default async function pRetry(input, options) {
 				resolve(await input(attemptNumber));
 			} catch (error) {
 				if (!(error instanceof Error)) {
-					reject(new TypeError(`Non-error was thrown: "${error}". You should only throw errors.`));
+					reject(new TypeError(`Non-error was thrown: "${error}". You should only throw errors!`));
 					return;
 				}
 
