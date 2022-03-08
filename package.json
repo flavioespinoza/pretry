@@ -2,6 +2,7 @@
   "name": "@flavs/pretry",
   "version": "1.0.4",
   "description": "Promise retry",
+  "type": "module",
   "main": "index.js",
   "files": [
     "index.js",
